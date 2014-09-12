@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		709C523E19C3293D003D8A1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709C523D19C3293D003D8A1E /* Foundation.framework */; };
+		709C524019C3293D003D8A1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709C523F19C3293D003D8A1E /* CoreGraphics.framework */; };
+		709C524219C3293D003D8A1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709C524119C3293D003D8A1E /* UIKit.framework */; };
+		709C524819C3293D003D8A1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 709C524619C3293D003D8A1E /* InfoPlist.strings */; };
+		709C524A19C3293D003D8A1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 709C524919C3293D003D8A1E /* main.m */; };
+		709C524E19C3293D003D8A1E /* RAPIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 709C524D19C3293D003D8A1E /* RAPIAppDelegate.m */; };
+		709C525119C3293D003D8A1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709C524F19C3293D003D8A1E /* Main.storyboard */; };
+		709C525419C3293D003D8A1E /* RAPIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 709C525319C3293D003D8A1E /* RAPIViewController.m */; };
+		709C525619C3293D003D8A1E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 709C525519C3293D003D8A1E /* Images.xcassets */; };
+		709C525D19C3293D003D8A1E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709C525C19C3293D003D8A1E /* XCTest.framework */; };
+		709C525E19C3293D003D8A1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709C523D19C3293D003D8A1E /* Foundation.framework */; };
+		709C525F19C3293D003D8A1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709C524119C3293D003D8A1E /* UIKit.framework */; };
+		709C526719C3293D003D8A1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 709C526519C3293D003D8A1E /* InfoPlist.strings */; };
+		709C526919C3293D003D8A1E /* ReachabilityAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 709C526819C3293D003D8A1E /* ReachabilityAPITests.m */; };
+		709C527419C3294F003D8A1E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 709C527319C3294F003D8A1E /* Reachability.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		709C526019C3293D003D8A1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 709C523219C3293D003D8A1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 709C523919C3293D003D8A1E;
+			remoteInfo = ReachabilityAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		709C523A19C3293D003D8A1E /* ReachabilityAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReachabilityAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		709C523D19C3293D003D8A1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		709C523F19C3293D003D8A1E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		709C524119C3293D003D8A1E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		709C524519C3293D003D8A1E /* ReachabilityAPI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReachabilityAPI-Info.plist"; sourceTree = "<group>"; };
+		709C524719C3293D003D8A1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		709C524919C3293D003D8A1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		709C524B19C3293D003D8A1E /* ReachabilityAPI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReachabilityAPI-Prefix.pch"; sourceTree = "<group>"; };
+		709C524C19C3293D003D8A1E /* RAPIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RAPIAppDelegate.h; sourceTree = "<group>"; };
+		709C524D19C3293D003D8A1E /* RAPIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAPIAppDelegate.m; sourceTree = "<group>"; };
+		709C525019C3293D003D8A1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		709C525219C3293D003D8A1E /* RAPIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RAPIViewController.h; sourceTree = "<group>"; };
+		709C525319C3293D003D8A1E /* RAPIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAPIViewController.m; sourceTree = "<group>"; };
+		709C525519C3293D003D8A1E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		709C525B19C3293D003D8A1E /* ReachabilityAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReachabilityAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		709C525C19C3293D003D8A1E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		709C526419C3293D003D8A1E /* ReachabilityAPITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReachabilityAPITests-Info.plist"; sourceTree = "<group>"; };
+		709C526619C3293D003D8A1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		709C526819C3293D003D8A1E /* ReachabilityAPITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReachabilityAPITests.m; sourceTree = "<group>"; };
+		709C527219C3294F003D8A1E /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		709C527319C3294F003D8A1E /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		709C523719C3293D003D8A1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709C524019C3293D003D8A1E /* CoreGraphics.framework in Frameworks */,
+				709C524219C3293D003D8A1E /* UIKit.framework in Frameworks */,
+				709C523E19C3293D003D8A1E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		709C525819C3293D003D8A1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709C525D19C3293D003D8A1E /* XCTest.framework in Frameworks */,
+				709C525F19C3293D003D8A1E /* UIKit.framework in Frameworks */,
+				709C525E19C3293D003D8A1E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		709C523119C3293D003D8A1E = {
+			isa = PBXGroup;
+			children = (
+				709C524319C3293D003D8A1E /* ReachabilityAPI */,
+				709C526219C3293D003D8A1E /* ReachabilityAPITests */,
+				709C523C19C3293D003D8A1E /* Frameworks */,
+				709C523B19C3293D003D8A1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		709C523B19C3293D003D8A1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				709C523A19C3293D003D8A1E /* ReachabilityAPI.app */,
+				709C525B19C3293D003D8A1E /* ReachabilityAPITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		709C523C19C3293D003D8A1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				709C523D19C3293D003D8A1E /* Foundation.framework */,
+				709C523F19C3293D003D8A1E /* CoreGraphics.framework */,
+				709C524119C3293D003D8A1E /* UIKit.framework */,
+				709C525C19C3293D003D8A1E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		709C524319C3293D003D8A1E /* ReachabilityAPI */ = {
+			isa = PBXGroup;
+			children = (
+				709C527219C3294F003D8A1E /* Reachability.h */,
+				709C527319C3294F003D8A1E /* Reachability.m */,
+				709C524C19C3293D003D8A1E /* RAPIAppDelegate.h */,
+				709C524D19C3293D003D8A1E /* RAPIAppDelegate.m */,
+				709C524F19C3293D003D8A1E /* Main.storyboard */,
+				709C525219C3293D003D8A1E /* RAPIViewController.h */,
+				709C525319C3293D003D8A1E /* RAPIViewController.m */,
+				709C525519C3293D003D8A1E /* Images.xcassets */,
+				709C524419C3293D003D8A1E /* Supporting Files */,
+			);
+			path = ReachabilityAPI;
+			sourceTree = "<group>";
+		};
+		709C524419C3293D003D8A1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				709C524519C3293D003D8A1E /* ReachabilityAPI-Info.plist */,
+				709C524619C3293D003D8A1E /* InfoPlist.strings */,
+				709C524919C3293D003D8A1E /* main.m */,
+				709C524B19C3293D003D8A1E /* ReachabilityAPI-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		709C526219C3293D003D8A1E /* ReachabilityAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				709C526819C3293D003D8A1E /* ReachabilityAPITests.m */,
+				709C526319C3293D003D8A1E /* Supporting Files */,
+			);
+			path = ReachabilityAPITests;
+			sourceTree = "<group>";
+		};
+		709C526319C3293D003D8A1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				709C526419C3293D003D8A1E /* ReachabilityAPITests-Info.plist */,
+				709C526519C3293D003D8A1E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		709C523919C3293D003D8A1E /* ReachabilityAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 709C526C19C3293D003D8A1E /* Build configuration list for PBXNativeTarget "ReachabilityAPI" */;
+			buildPhases = (
+				709C523619C3293D003D8A1E /* Sources */,
+				709C523719C3293D003D8A1E /* Frameworks */,
+				709C523819C3293D003D8A1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReachabilityAPI;
+			productName = ReachabilityAPI;
+			productReference = 709C523A19C3293D003D8A1E /* ReachabilityAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		709C525A19C3293D003D8A1E /* ReachabilityAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 709C526F19C3293D003D8A1E /* Build configuration list for PBXNativeTarget "ReachabilityAPITests" */;
+			buildPhases = (
+				709C525719C3293D003D8A1E /* Sources */,
+				709C525819C3293D003D8A1E /* Frameworks */,
+				709C525919C3293D003D8A1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				709C526119C3293D003D8A1E /* PBXTargetDependency */,
+			);
+			name = ReachabilityAPITests;
+			productName = ReachabilityAPITests;
+			productReference = 709C525B19C3293D003D8A1E /* ReachabilityAPITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		709C523219C3293D003D8A1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RAPI;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = coco;
+				TargetAttributes = {
+					709C525A19C3293D003D8A1E = {
+						TestTargetID = 709C523919C3293D003D8A1E;
+					};
+				};
+			};
+			buildConfigurationList = 709C523519C3293D003D8A1E /* Build configuration list for PBXProject "ReachabilityAPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 709C523119C3293D003D8A1E;
+			productRefGroup = 709C523B19C3293D003D8A1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				709C523919C3293D003D8A1E /* ReachabilityAPI */,
+				709C525A19C3293D003D8A1E /* ReachabilityAPITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		709C523819C3293D003D8A1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709C525619C3293D003D8A1E /* Images.xcassets in Resources */,
+				709C524819C3293D003D8A1E /* InfoPlist.strings in Resources */,
+				709C525119C3293D003D8A1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		709C525919C3293D003D8A1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709C526719C3293D003D8A1E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		709C523619C3293D003D8A1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709C524E19C3293D003D8A1E /* RAPIAppDelegate.m in Sources */,
+				709C525419C3293D003D8A1E /* RAPIViewController.m in Sources */,
+				709C527419C3294F003D8A1E /* Reachability.m in Sources */,
+				709C524A19C3293D003D8A1E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		709C525719C3293D003D8A1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709C526919C3293D003D8A1E /* ReachabilityAPITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		709C526119C3293D003D8A1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 709C523919C3293D003D8A1E /* ReachabilityAPI */;
+			targetProxy = 709C526019C3293D003D8A1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		709C524619C3293D003D8A1E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				709C524719C3293D003D8A1E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		709C524F19C3293D003D8A1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				709C525019C3293D003D8A1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		709C526519C3293D003D8A1E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				709C526619C3293D003D8A1E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		709C526A19C3293D003D8A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		709C526B19C3293D003D8A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		709C526D19C3293D003D8A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReachabilityAPI/ReachabilityAPI-Prefix.pch";
+				INFOPLIST_FILE = "ReachabilityAPI/ReachabilityAPI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		709C526E19C3293D003D8A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReachabilityAPI/ReachabilityAPI-Prefix.pch";
+				INFOPLIST_FILE = "ReachabilityAPI/ReachabilityAPI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		709C527019C3293D003D8A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ReachabilityAPI.app/ReachabilityAPI";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReachabilityAPI/ReachabilityAPI-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ReachabilityAPITests/ReachabilityAPITests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		709C527119C3293D003D8A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ReachabilityAPI.app/ReachabilityAPI";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReachabilityAPI/ReachabilityAPI-Prefix.pch";
+				INFOPLIST_FILE = "ReachabilityAPITests/ReachabilityAPITests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		709C523519C3293D003D8A1E /* Build configuration list for PBXProject "ReachabilityAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				709C526A19C3293D003D8A1E /* Debug */,
+				709C526B19C3293D003D8A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		709C526C19C3293D003D8A1E /* Build configuration list for PBXNativeTarget "ReachabilityAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				709C526D19C3293D003D8A1E /* Debug */,
+				709C526E19C3293D003D8A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		709C526F19C3293D003D8A1E /* Build configuration list for PBXNativeTarget "ReachabilityAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				709C527019C3293D003D8A1E /* Debug */,
+				709C527119C3293D003D8A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 709C523219C3293D003D8A1E /* Project object */;
+}
