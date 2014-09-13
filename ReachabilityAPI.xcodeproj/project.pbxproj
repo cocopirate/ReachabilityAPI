@@ -22,6 +22,7 @@
 		709C526719C3293D003D8A1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 709C526519C3293D003D8A1E /* InfoPlist.strings */; };
 		709C526919C3293D003D8A1E /* ReachabilityAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 709C526819C3293D003D8A1E /* ReachabilityAPITests.m */; };
 		709C527419C3294F003D8A1E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 709C527319C3294F003D8A1E /* Reachability.m */; };
+		709C72AA19C4126E00FD8694 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709C72A919C4126E00FD8694 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		709C526819C3293D003D8A1E /* ReachabilityAPITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReachabilityAPITests.m; sourceTree = "<group>"; };
 		709C527219C3294F003D8A1E /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		709C527319C3294F003D8A1E /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		709C72A919C4126E00FD8694 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				709C72AA19C4126E00FD8694 /* SystemConfiguration.framework in Frameworks */,
 				709C524019C3293D003D8A1E /* CoreGraphics.framework in Frameworks */,
 				709C524219C3293D003D8A1E /* UIKit.framework in Frameworks */,
 				709C523E19C3293D003D8A1E /* Foundation.framework in Frameworks */,
@@ -104,6 +107,7 @@
 		709C523C19C3293D003D8A1E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				709C72A919C4126E00FD8694 /* SystemConfiguration.framework */,
 				709C523D19C3293D003D8A1E /* Foundation.framework */,
 				709C523F19C3293D003D8A1E /* CoreGraphics.framework */,
 				709C524119C3293D003D8A1E /* UIKit.framework */,
@@ -463,6 +467,7 @@
 				709C526E19C3293D003D8A1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		709C526F19C3293D003D8A1E /* Build configuration list for PBXNativeTarget "ReachabilityAPITests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +476,7 @@
 				709C527119C3293D003D8A1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

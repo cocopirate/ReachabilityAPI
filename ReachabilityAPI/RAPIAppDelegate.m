@@ -15,7 +15,8 @@
     Reachability *reach = [Reachability reachabilityForInternetConnection];
     NetworkStatus status = [reach currentReachabilityStatus];
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Reachability" message:[self stringFromStatus:status] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-                          [alert show];
+    [alert show];
+    
     return YES;
 }
 							
@@ -44,6 +45,26 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+-(NSString *)stringFromStatus:(NetworkStatus )status
+{
+    NSString *string;
+    switch (status) {
+        case NotReachable:
+            string = @"Not Reachable";
+            break;
+        case ReachableViaWiFi:
+            string = @"Reachable via WiFi";
+            break;
+        case ReachableViaWWAN:
+            string = @"Reachable via WWAN";
+            break;
+        default:
+            string = @"Unknown";
+            break;
+    }
+    return string;
 }
 
 @end
